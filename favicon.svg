@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f8cff"/>
+      <stop offset="1" stop-color="#a45cff"/>
+    </linearGradient>
+  </defs>
+  <!-- Fons -->
+  <rect width="64" height="64" rx="14" fill="#111"/>
+  <!-- Anell hexagonal (estil OpenAI) -->
+  <polygon points="32,6 54.5,19 54.5,45 32,58 9.5,45 9.5,19"
+           fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Raigs taronja (estil Claude) -->
+  <g stroke="#d97757" stroke-width="3.5" stroke-linecap="round">
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(22.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(67.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(112.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(157.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(202.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(247.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(292.5 32 32)"/>
+    <line x1="32" y1="21" x2="32" y2="12" transform="rotate(337.5 32 32)"/>
+  </g>
+  <!-- Estrella de quatre puntes (estil Gemini) -->
+  <path d="M32 11 Q34 30 53 32 Q34 34 32 53 Q30 34 11 32 Q30 30 32 11 Z" fill="url(#star)"/>
+</svg>
